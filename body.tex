@@ -172,38 +172,160 @@ ausgewählten Hardware Komponenten, wird ein Protokoll geboten, welches im
 Hinblick sowohl auf die Sicherheitskomponente als auch bezüglich der
 Energieeffizienz als ausreichend angesehen werden kann.
 
-\section{Allgemeine und spezielle Sicherheitsziele (Paul?)}
+\section{Allgemeine und spezielle Sicherheitsziele}
 
-\begin{figure}[h!]
+Die Themen Sicherheit und Risiko rücken immer dann in den Mittelpunkt des
+öffentlichen Interesses, wenn durch Fehler in Geräten oder technischen Systemen
+Menschen zu Schaden gekommen sind. Gefahren und Unfälle können durch
+menschliches Versagen ausgelöst werden, aber auch durch technische Defekte in
+Systemen unterschiedlichster Art. Systeme die nicht vor Missbrauch geschützt
+werden oder auch andere sicherheitstechnischen Schwächen aufzeigen, sind nicht
+sicher und stellen ein erhöhtes Risiko für Personen dar. [Löw, Pabst & Petry
+2010, S. 9] 
+
+Benutzer von technischen Geräten haben verständlicherweise sehr hohe
+Erwartungen an die Sicherheit von Systemen und die Reduzierung der Risiken und
+Defekten. Hersteller wollen sichere Produkte kostengünstig entwickeln durch
+Unfälle vermeiden und die Kundenzufriedenheit erhalten. [Löw, Pabst & Petry
+2010, S. 10] 
+
+In den vergangenen Jahren ist der Der Anteil der
+sicherheitsbezogenen, elektronischen Steuerungen und der Software in den
+verschiedenen Produkten stark angestiegen. Daraus ergibt sich natürlich eine
+wachsende Komplexität der Systeme und Anforderungen an die Sicherheit der
+Geräte. In aktuellen Kraftfahrzeugen finden sich schon bis zu 80 verschiedene
+elektronische Steuergeräte die für Sicherheit der Passagiere sorgen. Diese
+Entwicklung spiegelt sich jedoch in fast allen Bereichen wieder, unteranderem
+auch  bei Medizingeräten. Im Bereich der Medizintechnik spielt das Thema
+Sicherheit und Zuverlässigkeit eine sehr wichtige Rolle. Die Software in diesen
+Chips, die zu einem sicheren Betrieb der Geräte beiträgt, muss dann jedoch
+stabiler und zuverlässiger funktionieren als etwa das Betriebssystem eines
+heutigen Laptops, das den Betrieb ab und zu durch einen Neustart unterbrich t,
+wenn es meint, überlastet zu sein. [Löw, Pabst & Petry 2010, S. 10] 
+
+Um
+Anforderungen an Sicherheiten von Produkten erfüllen zu können, ist die
+Anwendung von Sicherheitsnormen dringend erforderlich. Diese Normen beschreiben
+Standards, welche von der Mehrzahl der Fachleute als korrekt anerkannt wird und
+sich auch in der Praxis gut bewährt hat. Die Anwendung der Regeln unterstützt
+zusätzlich die nachweisbare Erfüllung der Sicherheitsanforderungen an Produkte.
+[Löw, Pabst & Petry 2010, S. 11]
+
+\subsection{Normen für die Sicherheit von Medizinprodukten}
+
+Einen Stand der Technik widerspiegelndes Dokument definiert sich als Norm. Eine
+Norm regelt und erleichtert somit durch Festlegungen allgemeine und
+wiederkehrende Anwendungen, wie zum Beispiel Herstellungsprozesse,
+Prüfverfahren, sowie Produkteigenschaften. Sie können sich somit sowohl auf
+Gegenstände als auch auf Verfahren beziehen. [Rölleke 2010, S. 605] 
+
+Normen haben
+für sich genommen keinerlei Gesetzeskraft. Ihre Anwendung für Produkte,
+Hersteller, Betreiber und Anwender ist somit freiwillig. Erst durch Rechtsakte
+können Normen Verbindlichkeit erlangen, etwa wenn auf sie in privaten Verträgen
+oder in Gesetzen und Verordnungen Bezug genommen wird. [Rölleke 2010, S. 606]
+
+Nun wollen wir auf Normen in Bezug auf Medizinprodukte näher eingehen. Ein
+Medizinprodukt ist ein einzelnes oder mit anderen Medizinprodukten verbundenes
+Instrument, Apparat oder Vorrichtung, welche einschließlich der für ein
+einwandfreies funktionierendes Medizinproduktes eingesetzte Software, die vom
+Hersteller zur Anwendung für Menschen mittels ihrer dafür vorgesehenen
+Funktionen benutzt wird. Die Einhaltung grundlegender Anforderungen bei
+medizinischen Produkten ist nach der jeweiligen Europäischen Richtlinie zu
+erfüllen. [Rölleke 2010, S. 606] 
+
+Für alle Medizinprodukte gilt die "`DIN EN ISO
+14971"'. Da diese Norm, als Prozessstandard noch die größte Produktnähe
+aufweist, wollen wir sie an dieser Stelle etwas näher darauf eingehen. Die Norm "`DIN EN
+ISO 14971"' wurde spezifisch für die Herstellung von Medizinprodukten entwickelt
+und behandelt sich mit dem Erkennen, Bewerten und Minimieren von Risiken, die
+natürlich in der erster Linie Patienten betreffen könnten. [Rölleke 2010, S.
+607] Das Risiko lässt sich, neben subjektiv geprägten Parametern, auch durch
+folgende 2 Faktoren charakterisieren:\\
+\begin{itemize}
+  \item Wahrscheinlichkeit des Auftretens eines Schadens
+  \item Auswirkung des Schadens
+\end{itemize}
+
+Die Risikomanagementnorm "`DIN EN ISO 14971"' kann ebenfalls Prozesse zur
+Identifizierung und Minimierung von Gefährdungen festlegen, die von Medizinprodukten ausgehen können. Einen Risikobereich vertretbar konkretisieren ist pauschal jedoch nicht möglich. [Rölleke 2010, S. 608]
+
+Wie schon zuvor erwähnt beschreibt die Norm "`DIN EN ISO 14971"' eine
+Risikomanagementnorm bzw. ein Verfahren. Die Abbildung 1 zeigt den, die in der ISO 14971 festgelegten, Risikomanagementprozess. Es gibt 4 Schritte für das Risikomanagement, welche zu beachten sind. [Rau 2010, S. 129]
+\begin{itemize}
+  \item Risikoanalyse (risk analysis)
+  \item Risikobewertung (risk evaluation)
+  \item Risikokontrolle (risk control)
+  \item Postproduktionsinformationen (post-production information)
+\end{itemize}
+
+\begin{figure}[hbt]
     \centering
-    \includegraphics[width=1\textwidth]{resources/confidentiality_integrity_availability.png}
-    \caption{Confidentiality Integrity Availability}
-    \label{fig:conf_integr_avail}
+    \includegraphics[width=1\textwidth]{resources/Definition_von_Informationssicherheit.png}
+    \caption{Riskomanagement and Faktoren für kulturübergreifende Gestaltung von Medizinprodukten [Rau 2010, S. 129]}
+    \label{fig:risk_mgmt}
 \end{figure}
 
-\color{red}
-Vertraulichkeit stellt sicher das private Informationen nicht für
-unautorisierte Individuen einsehbar ist. Durch Privacy Maßnahmen soll
-sichergestellt werden das Individuen auf sie bezogene Informationen
-kontrollieren können.
 
-Integrität: Daten Integrität stellt sicher das Informationen und Programme nur
-in spezieller Art und Weise und autorisiert verändert werden können. System
-Integrität stellt dahingehend sicher das die Funktionalität eines Systems
-jederzeit erhalten bleibt und die an diese gestellte Ansprüche erfüllt.
- 
-Verfügbarkeit stellt sicher das ein System zeitgerecht arbeitet und
-autorisierten Benutzern zur Verfügung steht.
-...
+\subsection{Definition von Informationssicherheit}
 
-\color{black}
+Der weiter verbreitete Begriff der IT-Sicherheit erfüllt nicht mehr die Anforderungen einer ganzheitlichen Betrachtungsweise, da Geräte aus dem mobilen Bereich (wie in etwas Smartphones) nicht als IT-Systeme bzw. IT-Geräte verstanden werden und dadurch oft übersehen werden. Aus dieser Gegebenheit heraus, ist es normgerechter den Begriff Informationssicherheit zu verwenden. [Vogel, Gruetz 2010, S. 163]
 
-Folgende Quellen sind für diesen Bereich sehr gut geeignet:\\
-\url{https://www.securityforum.at/wp-content/uploads/2012/02/implantable_devices_gkoenig_v14.pdf}\\
-\url{https://spqr.eecs.umich.edu/papers/b1kohFINAL2.pdf}
+Unter dem Begriff Informationssicherheit versteht man im Wesentlichen folgende
+Punkte:
+\begin{itemize}
+  \item Vertraulichkeit\\
+Die Informationen werden nur den dazu befugten Personen zugänglich gemacht.
+  \item Verfügbarkeit\\
+Die Informationen sind in angemessener Zeit aufrufbar.
+  \item Integrität\\
+Die Informationen bleiben richtig und vollständig.
+  \item Zurechenbarkeit\\
+Die Änderungen der Informationen kann dem Urheber der Änderungen zugerechnet werden.
+  \item Authentizität\\
+Der Systembenutzer oder das System selbst ist tatsächlich derjenige bzw. dasjenige für den er oder es sich ausgibt.
+\end{itemize}
+
+Informationssicherheit dient der Aufrechterhaltung des Geschäftsbetriebs. In
+weiterer Folge werden dadurch auch die Geschäftsrisiken minimiert und die Rendite und Geschäftschancen maximiert. Informationssicherheit ist somit der Schutz von Informationen vor einer Vielzahl von unternehmerischen Bedrohungen. [Vogel, Gruetz 2010, S. 163]
+
+Die Informationssicherheit unterstützt somit das Unternehmen und darf nicht als
+Hindernis angesehene werden. Welche Sicherheitsziele nun gelten, also beispielsweise welches Maß an Vertraulichkeit bzw. Verfügbarkeit für die Informationen gelten soll, sollte jedes Krankenhaus verbindlich und hausweit gültig in den Sicherheitslinien festlegen. Folgende Ziele könnten in die Sicherheitslinien festzuschreiben sein:
+\begin{itemize}
+  \item Unternehmenswichtige IT-Systeme sind hoch verfügbar
+  \item Alle Systeme werden von einem Zugriff durch Unbefugte geschützt
+  \item Die Anforderungen an die ärztliche Schweigepflicht werden eingehalten
+  \item Kosten für die Geschäftsprozesse werden optimiert
+  \item Schadensfälle durch nicht gesicherte IT-Systeme werden unterbunden
+\end{itemize}
+[Vogel, Gruetz 2010, S. 163]
 
 
-\section{Kategorien von Geräten und Scope (Gerald)}
+\section{Angriffsarten und Angriffspfade}
+
+Immer mehr klassische Medizingeräte werden durch neuere innovative Geräte ersetzt, deren Funktionalität durch Software gesteuert wird und die zum Austausch von Daten über das LAN (Local Area Network) oder WLAN (Wireless Local Area Network) kommunizieren. Diese Geräte wachsen in die IT eines Krankenhauses hinein und unterliegen somit auch deren Gefahrenpotential. In den letzten Jahrzehnten waren in fast allen Häusern die Bereiche IT und Medizintechnik klassisch getrennt. In den letzten Jahren werden doch immer öfters herkömmliche PCs zur Steuerung bzw. Auswertung der Daten von Medizingeräte. Auch fordert das Krankenhauspersonal erfasste Daten möglichst überall im Haus verfügbar zu haben. Hierbei wird oft auf eine gemeinsam genutzte LAN-Kabel-Infrastruktur zurückgegriffen. Dabei ergeben sich jedoch folglich einige Sicherheitsprobleme. [Vogel, Gruetz 2010, S. 162]
+
+Die Medizintechnik, die bisher quasi, in einer sicheren Umgebung arbeiten
+konnte, hatte bisher keinerlei bösartige Ein- und Angriffe waren zu erwarten, da es sich meist um nicht vernetzte Geräte handelte. Diese Geräte waren zusätzlich auch noch mit proprietären Betriebssystemen ausgestattet oder in abgeschlossenen Netze ohne Zugang zur Außenwelt, geschweige denn zum Internet. Auf der anderen Seite haben wir die moderne IT, die seit Jahren mit Viren und Trojanern, mit Fehlern in Betriebssystemen und Software leben muss. Dadurch hat sich ein reichhaltiges Wissen zur Gefahrenabwehr angehäuft. [Vogel, Gruetz 2010, S. 162]
+
+\subsection{Sicherheitsangriffe}
+Aus der Gegebenheit heraus, dass in Krankenhäuser dieselben bis sehr ähnliche
+IT-Infrastrukturen wie in anderen Unternehmen zum Einsatz kommen, ergeben dieselben  klassischen IT-Sicherheitsprobleme und Angriffsarten.
+\begin{itemize}
+  \item Routing Protocoll Injection\\
+Hierbei wird unbefugt die Routingtabelle von Gatewaysystemen verfälscht
+  \item Denial-of-Service-Angriffe\\
+DoS-Angriffe unterscheiden sich in einem Punkt von anderen Angriffsarten. Bei dieser Art des Angriffs will der Angreifer nicht Zugang zum Netzwerk, sondern der Angriff hat den Zweck das System so stark zu überlasten, dass eine normale Nutzung nicht mehr möglich ist.  \item Die Anforderungen an die ärztliche Schweigepflicht werden eingehalten
+  \item IF-Spoofing Angriff\\
+Hierbei wird unter Vortäuschung einer falschen IP-Adresse Aktionen gegen fremde Systeme gestartet. Durch die Identitätsverschleierung ist es oftmals schwierig den Verursacher zeitnah zu identifizieren.
+  \item Password Cracking Angriffe\\
+Dies stellt wohl die gebräuchlichste Form von Angriffe auf IT-Systeme dar. Es wird versucht Zugänge auf dem Zielsystem und die zugehörigen Passwörter zu ermitteln.
+  \item Man-in-the-middle-Angriff\\
+Dies ist eine Angriffsart bei der sich eine initialisierende Kommunikationsbeziehung, bei der sich der Angreifer logisch genau zwischen den Partner befindet. Es wird dem Angreifer somit möglich sein, Daten mitzulesen und ggf. auch zu manipulieren. Die Sicherheit kann in diesem Zusammenhang erhöht werden, wenn sich beide Partner einer starken Authentifizierung beim Verbindungsaufbau unterziehen müssen.
+\end{itemize}
+[Laszlo 2004, S. 14]
+
+\section{Kategorien von Geräten und Scope}
 Eine Vielzahl an implantierbaren medizinischen Geräten existiert bereits. Wurden
 in dieser Branche des US Marktes 2010 bereits 32,3 Mrd Dollar umgesetzt, so ist
 davon auszugehen das einerseits aufgrund einer demographischen andererseits
@@ -517,11 +639,7 @@ ermöglicht wird.
     \label{fig:shield2}
 \end{figure}
 
-
-\newpage
-\color{red}
-\section{Fazit, Zusammenfassung und Ausblick?}
-\color{black}
+\section{Fazit, Zusammenfassung und Ausblick}
 Im medizinischen Bereich nehmen die Sicherheit und Privatsphäre von Patienten,
 sowie die Zuverlässigkeit der Technik einen sehr hohen Stellenwert ein. Da
 implantierbare medizintechnische Geräte erst innerhalb des letzten Jahrzehnts
