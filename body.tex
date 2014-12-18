@@ -8,9 +8,8 @@ einzurichten können prinzipiell in implantierbare und externe Geräte unterteilt
 werden. Wobei Erstere dazu genutzt werden um spezifische Messungen im Körper des
 Patienten durchzuführen und somit dessen Gesundheit zu überwachen. Diese Daten
 werden an externe Geräte übermittelt, welche diese Informationen sammeln,
-verarbeiten und gegebenfalls   Maßnahmen einleiten um auf gesundheitskritische
-Ereignisse zu reagieren.\\
-\cite{daniluk2012energy}
+verarbeiten und gegebenenfalls Maßnahmen einleiten um auf gesundheitskritische
+Ereignisse zu reagieren. \cite{daniluk2012energy}
 
 Auf Grund der zunehmenden Verbreitung von WSNs im medizinischen Bereich 
 konzentriert sich auch die Forschung  verstärkt auf die Entwicklung von sicheren
@@ -20,10 +19,9 @@ Herzschrittmacher, Blutzuckermessgeräte und damit verbundene Insulinpumpen
 können eine Art Sensornetzwerk in unserem Körper bilden, welches im Vergleich zu
 anderen WSNs von spezifischen Einschränkungen betroffen ist. Daher müssen bei
 der Entwicklung von IMGs bestimmte Aspekte bezüglich der Stabilität, Sicherheit
-und  der Energieressourcen  beachtet werden.\\
-\cite{grimes2004medical}
+und  der Energieressourcen  beachtet werden. \cite{grimes2004medical}
 
-Für die Entwicklung eines stablilen und sicheren Systems gilt es die Architektur
+Für die Entwicklung eines stabilen und sicheren Systems gilt es die Architektur
 mit spezifischen Lösungen zu erweitern, um die Kommunikationskanäle abzusichern
 und das System vor der Abhörung, Einbringung oder Modifikation der zu
 übermittelnden Daten zu bewahren. In den folgenden Kapiteln werden wir auf
@@ -35,8 +33,7 @@ beziehungsweise dessen Entwurf, diskutieren.
 Implantierbare medizintechnischen Geräte (IMGs) ermöglichen Patienten sich frei
 zu bewegen und ihren Alltag mit möglichst geringen Einschränkungen zu
 beschreiten, während die Möglichkeit besteht ihren Gesundheitsstatus
-kontinuierlich zu überwachen.\\
-\cite{hosseini2011lightweight}
+kontinuierlich zu überwachen. \cite{hosseini2011lightweight}
 
 IMGs können basierend auf deren Energieversorgung prinzipiell in zwei Gruppen
 unterteilt werden:
@@ -59,8 +56,9 @@ zu sparen, sollte die Übertragung der Bits möglichst schnell abgeschlossen und
 somit auch die eingesetzte Hardware sorgfältig ausgewählt werden.
 \cite{daniluk2012energy}
 
+
 Die derzeitig verfügbaren IMGs stellen diverse Funktionalitäten zur Verfügung,
-wobei die Folgenden am verbreitetesten sind:
+wobei die Folgenden am verbreitesten sind:
 \begin{itemize}
   \item das Monitoring bestimmter körperlicher Funktionen und Aktivitäten,
   \item die Steuerung und direkte Programmierung, sowie indirekte Programmierung der IMGs über das Internet,
@@ -82,8 +80,7 @@ menschlichen Körper eingesetzt werden. Die Messwerte werden zu einer externen
 Basisstation übertragen, die sich am Körper des Patienten, beziehungsweise an
 dessen Kleidung, befindet. Die gesammelten Daten werden von der Basisstation an
 ein mobiles Gerät übermittelt, welches die Rolle eines Brokers zwischen dem
-Patient und dem behandelnden Arzt einnimmt.\\
-\cite{daniluk2012energy}
+Patient und dem behandelnden Arzt einnimmt. \cite{daniluk2012energy}
 
 Ein möglicher Ansatz ist die Entwicklung eines externen Sicherheitsgeräts,
 welches gegebenenfalls auch in die Basisstation integriert werden könnte. Dieses
@@ -93,8 +90,7 @@ identifizieren, mit dem Ziel unzulässige Kommunikation zu unterbinden und somit
 Angriffe weitgehend abzublocken. Verhalten kann mittels im Vorhinein definierter
 oder dynamisch erlernter Regeln überprüft werden. Durch das Blockieren
 unzulässiger Übertragungen wird es ermöglicht die Batterie des IMGs zusätzlich
-zu entlasten und somit deren Lebensdauer zu erhöhen.\\
-\cite{daniluk2012energy}
+zu entlasten und somit deren Lebensdauer zu erhöhen. \cite{daniluk2012energy}
 
 Außerdem wäre es sinnvoll einen Mechanismus zur Aggregation von Messdaten
 anzuwenden, wodurch redundante Information eliminiert und  Energieressourcen
@@ -107,8 +103,7 @@ zusätzlich zu erschweren, da potentielle Angreifer physisch näher an das Gerät
 heran müssen um die IMGs ansprechen zu können. In Verbindung mit einer
 optimierten Positionierung der Sensoren und des Senders kann der
 Energieverbrauch weiter optimiert werden. Derzeit werden in Experimenten die
-optimalen Konfigurationen ermittelt.\\
-\cite{daniluk2012energy}
+optimalen Konfigurationen ermittelt. \cite{daniluk2012energy}
 
 \subsection{Ein energieeffizientes Sicherheitsprotokoll}
 Solide und bewährte Sicherheitsmechanismen, wie die  asymmetrische
@@ -123,7 +118,7 @@ angemessenen Grad an Sicherheit bietet.
 Für das Sicherheitsprotokoll werden folgende Ziele definiert:
 \begin{itemize}
   \item Vetraulichkeit: unbefugte Dritte können gesendete Nachrichten nicht lesen,
-  \item Authorisierung: Nachrichten von unautorisierten Dritten werden erkannt und abgewiesen,
+  \item Autorisierung: Nachrichten von unautorisierten Dritten werden erkannt und abgewiesen,
   \item Integrität: Nachrichten können nicht von Dritten manipuliert werden,
   \item sowie keine Wiederholbarkeit: ordnungsgemäße Nachrichten können nicht
   von Dritten unrechtmäßig repliziert und erneut gesendet werden \cite{hosseini2011lightweight}.
@@ -140,8 +135,7 @@ eine ebensolche symmetrische Verschlüsselung zwischen dem IMG und der
 Basisstation, zu der die Messdaten übertragen werden, vor. Der symmetrische
 Schlüssel wird hierbei auf dem implantierten Gerät gespeichert und vertraulich
 zur Konfiguration der Basisstation an den behandelnden Arzt und den Patienten
-weitergegeben.\\
-\cite{hosseini2011lightweight}
+weitergegeben. \cite{hosseini2011lightweight}
 
 Eine Schlüssellänge von 80 Bit und Datenblock-Größe von 64 Bit sind speziell an
 die Anforderungen von IMGs angepasst. Zur Entschlüsselung wird ein 64 Bit
@@ -150,11 +144,10 @@ implantierte Gerät über eine abgespeicherte 32 Bit lange Seriennummer, die unter
 allen IMGs, die das gleiche Protokoll verwenden, eindeutig ist. Das IMG und die
 Basisstation haben einen Zähler der mit 0 initialisiert wird und ebenfalls eine
 Läge von 32 Bit hat, bei jeder gesendeten Nachricht wird er um eins erhöht -
-wodurch Nachrichten von unbefugten Dritten nicht repliziert werden können.\\
-\cite{hosseini2011lightweight}
+wodurch Nachrichten von unbefugten Dritten nicht repliziert werden können. \cite{hosseini2011lightweight}
 
 Das Grundprinzip des Protokolls ist simpel gehalten. Anstatt einer gewöhnlichen
-Authentifzierung werden zwei Zähler verwendet, einer im IMG und einer in der
+Authentifizierung werden zwei Zähler verwendet, einer im IMG und einer in der
 Basisstation. Bei jedem Sendevorgang wird der Zähler der Basisstation erhöht,
 wenn der Zähler der Basisstation höher ist, als jener des implantierten Geräts
 wird die Nachricht angenommen und der Zähler der des IMGs auf den Wert des
@@ -166,15 +159,13 @@ neu synchronisiert werden muss, wenn eine Nachricht verloren geht. Da das
 implantierte Gerät lediglich einen Zähler und einen Vergleichsmethode benötigt,
 wird nur sehr wenig Rechenleistung in Anspruch genommen. Um die Sicherheit zu
 erhöhen ist es optional möglich den Zähler jeweils um eine kleine Zufallszahl zu
-erhöhen.\\
-\cite{hosseini2011lightweight}
+erhöhen. \cite{hosseini2011lightweight}
 
 Das Protokoll ist so ausgelegt, dass so wenig Hardware Module als möglich
 verwendet werden. Durch den Einsatz eines ultra-lightweight Block Cipher, wie
 zum Beispiel PRESENT-80, kann der Einsatz eines energie-ineffizienten
 Random-Access Memories vermieden werden um die beschriebenen Operationen
-durchzuführen.\\
-\cite{hosseini2011lightweight}
+durchzuführen. \cite{hosseini2011lightweight}
 
 Basierend auf der minimalistisch gehaltenen Logik und den sorgfältig
 ausgewählten Hardware Komponenten, wird ein Protokoll geboten, welches im
@@ -192,17 +183,17 @@ Energieeffizienz als ausreichend angesehen werden kann.
 
 \color{red}
 Vertraulichkeit stellt sicher das private Informationen nicht für
-unauthokrisierte Individuen einsehbar ist. Durch Privacy Maßnahmen soll
+unautorisierte Individuen einsehbar ist. Durch Privacy Maßnahmen soll
 sichergestellt werden das Individuen auf sie bezogene Informationen
 kontrollieren können.
 
 Integrität: Daten Integrität stellt sicher das Informationen und Programme nur
-in spezieller Art und Weise und authorisiert verändert werden können. System
+in spezieller Art und Weise und autorisiert verändert werden können. System
 Integrität stellt dahingehend sicher das die Funktionalität eines Systems
 jederzeit erhalten bleibt und die an diese gestellte Ansprüche erfüllt.
  
 Verfügbarkeit stellt sicher das ein System zeitgerecht arbeitet und
-authorisierten Benutzern zur Verfügung steht.
+autorisierten Benutzern zur Verfügung steht.
 ...
 
 \color{black}
@@ -231,8 +222,9 @@ Das WallStreet Journal beschreibt 2011 die elf häufigsten IMGs. \cite{wallstreet
 
 Einschränkend auf implantierbare Geräte (IMG) sind Gerätekategorien wie
 Herzschrittmacher, Defibrilatoren, Insulinpumpen  und Neurostimulatoren in
-dieser Arbeit von Bedeutung da diese drahtlose Kommunikation unterstützen.\\
-\textcolor{red}{(vgl. Gollakota et. al. 2011). Kein Gollakota in den Referenzen!!!}.\\
+dieser Arbeit von Bedeutung da diese drahtlose Kommunikation unterstützen.
+\textcolor{red}{(vgl. Gollakota et. al. 2011). Kein Gollakota in den
+Referenzen!!!}.\\
 
 
 
@@ -242,10 +234,9 @@ Bestehende Sicherheitsklassifikationen der Biomedizinischen Technik, der Medizin
 oder der Informationssicherheit lassen sich nur teilweise an den Schutz von IMGs
 anwenden. Sie sind einzeln zu restriktiv um direkt zur Entwicklung von IMG
 Sicherheitsmodellen verwendbar zu sein.
-\citeA{hansen2010taxonomy} entwickelen in ihrem Artikel durch das Verbinden
+\citeA{hansen2010taxonomy} entwickeln in ihrem Artikel durch das Verbinden
 mehrerer Sicherheitsklassifikationen ein 'Big Picture' um sicherheitsrelevante
-Verwundbarkeiten und infolge Gegenmaßnahmen zu entwerfen.\\
-\cite{hansen2010taxonomy}
+Verwundbarkeiten und infolge Gegenmaßnahmen zu entwerfen. \cite{hansen2010taxonomy}
 
 \subsection{Biomedizinische Technik}
 Speziell in europäischen Ländern müssen Hersteller von IMGs hohen Standards beim
@@ -261,11 +252,10 @@ schwerwiegende unerwünschtes Ereignisse:
   \item Ist auf eine andere Art medizinisch signifikant negativ
 \end{itemize}
 \citeA{hansen2010taxonomy} verwenden diese Klassifizierung um die Effekte von
-IMG Manipulation zu definieren.\\
-\cite{hansen2010taxonomy}
+IMG Manipulation zu definieren. \cite{hansen2010taxonomy}
 
 \subsection{Medizin}
-Die ICD-10 (International Statistical Calssification of Deseases and Related
+Die ICD-10 (International Statistical Classification of Deseases and Related
 Health Problems) sehen vier Kategorien für Komplikationen von IMGs vor:
 \begin{itemize}
   \item \textbf{T82:} Komplikationen von Herz und Gefäß Implantaten
@@ -282,7 +272,7 @@ grundsätzlich in zwei Gruppen aufgeteilt:
   \item Bedrohungen des Systems
   \item Evaluierung der Verwundbarkeit
 \end{itemize}
-\citeA{hansen2010taxonomy} lehen sich an diese an und entwickeln daraus ihre
+\citeA{hansen2010taxonomy} lehnen sich an diese an und entwickeln daraus ihre
 Risikoklassifikation für IMGs beziehungsweise deren Verwendung.
 
 \subsection{Klassifikation der
@@ -325,14 +315,14 @@ Patient:
 \end{itemize}
 
 \subsubsection{Funktion: }
-Die Funktion des IMGs beeinflusst direkt sowohl die Vulnerbilität gegenüber
+Die Funktion des IMGs beeinflusst direkt sowohl die Vulnerabilität gegenüber
 unbefugte Veränderungen wie auch die Effekte welche daraus entstehen.
 \citeA{hansen2010taxonomy} unterteilen in folgende vier Funktionsweisen von
 IMGS:
 \begin{itemize}
   \item Messend: Informationen vom Patienten oder seiner Umgebung sammeln
   \item Wirkend: Erwirkt einen Effekt, normalerweise therapeutischer Natur
-  \item Informationsverabeitend: Aggreggiert oder berechnet Informationen
+  \item Informationsverabeitend: Aggregiert oder berechnet Informationen
   \item Kommunizierend: Kontakt mit anderen IMGs, externen Geräten oder dem
   Patienten
 \end{itemize}
@@ -349,15 +339,14 @@ Betroffen sein können neben dem manipulierten Gerät ebenfalls in
 Kommunikationskontakt stehende Geräte sein. Diese können neben anderen IMGs
 externe Geräte wie Computer oder Anzeigen und Displays sein. Im schlimmsten Fall
 betrifft es jedoch auch den Patienten selbst. Somit kann der Angriff direkte und
-indirekte Auswirkungen hervorrufen.\\
-\cite{hansen2010taxonomy}
+indirekte Auswirkungen hervorrufen. \cite{hansen2010taxonomy}
 
 \subsubsection{Dauerhaftigkeit: }
-Wenn der Effekt des Angriffes nach einiger Zeit wieder nachlässt und
+Wenn der Effekt des Angriffs nach einiger Zeit wieder nachlässt und
 verschwindet oder nur solange anhält, solange der Angriff besteht sprechen
 \citeA{hansen2010taxonomy} von einer temporären Dauerhaftigkeit. Wird jedoch die
 Software beziehungsweise die Firmware des IMGs verändert sprechen die beiden
-Autoren von einer persistenten Dauherhaftigkeit. Im schlimmsten Fall, fällt auch
+Autoren von einer persistenten Dauerhaftigkeit. Im schlimmsten Fall, fällt auch
 der Tod des Patienten in diese Kategorie.
 
 \begin{figure}[htb]
@@ -384,17 +373,13 @@ Hinsichtlich Medical Devices existiert von der FDA (Amerikanischen
 Gesundheitsbehörde) einerseits ein Leitfaden für Medical Device Security
 andererseits eine Erfahrungsdatenbank MAUDE (Manufacturer and User Facility
 Device Experience Database) welche Usererfahrungen aufzeichnet über Medizinische
-Geräte hinsichtlich IT Sicherheitsrelevanter Belange. [FDA, 2014]
+Geräte hinsichtlich IT Sicherheitsrelevanter Belange. \cite{fda2014manufacturer}
 
 Auf europäischer Seite existiert die Richtlinie 90/384/EWG des Rates vom 20.Juni
 1990 zur Harmonisierung der Rechtsvorschriften für implantierbare medizinische
 Geräte. Die letztgültige Änderung beziehungsweise Berichtigung dieser Richtlinie
 bezogen auf Anwendung beim Menschen ist aktuell in der Richtlinie 2007/47/EG
-festgehalten. \\
-\begin{verbatim}
-[Richtlinie 2007/47/EG]}
-\end{verbatim}
-\cite{richtlinie2012eu}
+festgehalten. \cite{richtlinie2012eu}
 
 
 Aktuell existieren mehrerer Frameworks durch welche einerseits bisherige Ziele
@@ -415,10 +400,10 @@ Ausfallsicherheit des gesamten Systems.
 
 Um Betriebssicherheit und Anwendbarkeit zu erwirken sind nach \citeA{halperin2008pacemakers}
 folgende Kriterien ausschlaggebend:
-Der Zugriff auf Daten (Data access) muss für authorisierte Geräte oder
+Der Zugriff auf Daten (Data access) muss für autorisierte Geräte oder
 Individuen bei Bedarf möglich sein. Diesbezüglich sind jegliche Daten in
 Verbindung mit einem IMG von Belangen.
-Die gemessenen und gespeicherten Daten sollten adequat den Anforderungen an ein
+Die gemessenen und gespeicherten Daten sollten adäquat den Anforderungen an ein
 System hinsichtlich ihrer Datengenauigkeit genügen. Dies kann auch für Zeitliche
 Daten gelten.
 
@@ -437,11 +422,11 @@ gespeicherter Energie andererseits bezüglich des maximalen
 Verfügbarkeitzeitraums selbst.
 
 \subsection{Aspekte zu Maßnahmen zur Erreichung  von Sicherheitszielen und Privatsphäre}
-Nach \citeA{halperin2008pacemakers} sind folgende Kriterien hinsichtlich Ziele der Sicherheit und
-Privatsphäre ausschlaggebend:\\
-Authorisierung von Personal das nur bestimme Individuen ihnen zugestandene
+Nach \citeA{halperin2008pacemakers} sind folgende Kriterien hinsichtlich Ziele
+der Sicherheit und Privatsphäre ausschlaggebend:\\
+Autorisierung von Personal das nur bestimme Individuen ihnen zugestandene
 Anwendungen durchführen können. Weiter verfeinert ist dies auch durch ein
-Rollenkonzept werden indem Authorisierte Individuen Zugriff durch eine
+Rollenkonzept werden indem Autorisierte Individuen Zugriff durch eine
 zugewiesene Rolle erhalten. Unterschiedliche Rollen nehmen dabei beispielsweise
 der Patient selbst, der Mediziner, der Ambulanz Computer oder der Geräte
 Hersteller ein.
@@ -459,25 +444,24 @@ durch Autorisierungs- und Authentifizierungsmaßnahmen erreicht. Als
 Zugriffsmodell könnte eine von \citeA{gupta2006criticality} vorgestellte Lösung
 zum Einsatz kommen. Des weiteren stellt die Verfügbarkeit einen (lebens-)
 wichtigen Punkt dar, gerade wenn es Denial of Service Angriffe geht. Die
-Gerätesoftware muss ausreichend Zuverlässig in Hinblick auf sein
-Implementierungs- und Entwicklungsfehler sein. Ausreichende Abhilfe muss durch
-Softwaretests seitens des Hersteller geschaffen werden. Ein fehlerhaftes
-Verhalten eines Herzschrittmachers kann beispielsweise gravierende Auswirkungen
-für einen Patienten haben.
+Gerätesoftware muss ausreichend zuverlässig in Hinblick auf Implementierungs-
+und Entwicklungsfehler sein. Ausreichende Abhilfe muss durch Softwaretests
+seitens des Hersteller geschaffen werden. Ein fehlerhaftes Verhalten eines
+Herzschrittmachers kann beispielsweise gravierende Auswirkungen für einen
+Patienten haben.
 
 Device existence privacy beschreibt dass das IMG nicht für andere
-unauthorisierte Geräte sichtbar ist. Sollte trotzdem Sichtbarkeit gegeben sein
+unautorisierte Geräte sichtbar ist. Sollte trotzdem Sichtbarkeit gegeben sein
 ist sicherzustellen das die Type des Geräts (Device type privacy) und die Geräte
 ID (Specific device ID privacy) nicht verraten werden, um einen möglichen
-Angriff zu unterbinden. Weiters sind Messdaten und Logs dieser unauthorisierten
+Angriff zu unterbinden. Weiters sind Messdaten und Logs dieser unautorisierten
 Personen vorzuenthalten. Es soll auch nicht möglich sein, sollte das Gerät
 erkannt werden über einen Exploit den Träger des Gerätes zu identifizieren. Dies
 wird als Bearer Privacy bezeichnet. Schlussendlich muss auch die Daten
 Integrität jeglicher Daten welche mit dem Patienten und dem IMG in Verbindung
 stehen gewahrt bleiben. Eine mögliche Manipulation beispielsweise von Logdaten
 könnte zu einem falschen Setting des Gerätes führen und dies dem Träger
-schaden.\\
-\cite{halperin2008pacemakers}
+schaden. \cite{halperin2008pacemakers}
 
 \subsection{Aspekte der Kommunikation}
 Ein Kommunikationskanal eines IMG's zu einem Personal Computer oder einem
@@ -509,13 +493,13 @@ Alternativ könnten auch Ketten mit oder Armbänder bei denen das benötigte
 Passwort hinterlegt wird verwendet werden. \textcolor{red}{[Leavit, 2010]}
 
 Gollakota \textcolor{red}{[Gollakota et. al., 2011]} schlägt hinsichtlich
-Kommunikation ein Design vor welches "`The Shield" genannt wird. Das Schild wirkt einerseits
-gegen passives Abhören indem aus dem Jamming Signal und dem Antidote Signal wie in
+Kommunikation ein Design vor welches "`The Shield"' genannt wird. Das Schild
+wirkt einerseits gegen passives Abhören indem aus dem Jamming Signal und dem Antidote Signal wie in
 Abbildung \ref{fig:shield2} dargestellt verschleiert Daten übertragen werden und
 in anderer Hinsicht gegen aktive Kommunikation mit unautorisierten Signalen indem zwischen
 dem Schild und dem Programmer, wie in Abbildung \ref{fig:shield1} dargestellt
 Daten nur verschlüsselt übertragen werden. Würde ein Angreifer Daten zum IMG übertragen
-erkennt dies das Schield und unterbindet durch das aktivieren des Jamming
+erkennt dies das Shield und unterbindet durch das aktivieren des Jamming
 Signals die Kommunikation. Um Angriffe zu erkennen findet ein permanentes
 Lauschen seitens des Schildes statt. Ein wesentlicher Grund die Schild
 Technologie zu verwenden kann darin bestehen das die Kommunikationsdistanz
@@ -554,13 +538,3 @@ konkurrierendes Ziel darstellt, wobei keines der beiden vernachlässigbar werden
 darf. In Zukunft gilt es schrittweise Optimierungen vorzunehmen und effiziente
 Methoden miteinander zu kombinieren um den Erreichungsgrad beider Ziele steigern
 zu können.
-
-
-
-
-
-
-
-
-
-
