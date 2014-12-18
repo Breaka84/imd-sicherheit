@@ -5,14 +5,14 @@
 %
 \documentclass[12pt]{llncs} %%%%%%%%%%%%%%%%%%%%% Used for
 % drafting %%%%%%%%%%%%%%%%%%%%% 
-%\documentclass{llncs} 
+%\documentclass{llncs}
 %
 
 \usepackage[colorlinks, linkcolor = black, citecolor = black, filecolor = black, urlcolor = blue]{hyperref} 
 
 % APA Cite Package and initialization
 %\RequirePackage{apacite}
-\usepackage[apaciteclassic]{apacite}
+\usepackage[apaciteclassic]{apacite} 
 \bibliographystyle{apacite}
 
 %
@@ -20,7 +20,7 @@
 %
 \usepackage{color}
 % 
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{2} 
 % 
 % make a proper TOC despite llncs
 \makeatletter
@@ -28,58 +28,60 @@
 \renewcommand*\l@title[2]{}
 \makeatletter 
 
-\usepackage[UTF8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc} 
 \usepackage[ngerman]{babel}
 
-\usepackage{comment}
+\usepackage{comment} 
 
-\usepackage{tabularx}
-
+\usepackage{tabularx} 
+\usepackage{graphicx} 
 
 
 %\linespread{1.6} %%%%%%%%%%%%%%%%%%%%% Used for drafting %%%%%%%%%%%%%%%%%%%%%
-%\usepackage[margin=2.5cm]{geometry} %%%%%%%%%%%%%%%%%%%%% Used for drafting
+\linespread{1.6} %%%%%%%%%%%%%%%%%%%%% Used for drafting %%%%%%%%%%%%%%%%%%%%%
+\usepackage[margin=2.5cm]{geometry} %%%%%%%%%%%%%%%%%%%%% Used for drafting
 % %%%%%%%%%%%%%%%%%%%%%
 
 %=====================================================================================
 
-\begin{document}
+\begin{document} 
 %
 \frontmatter          % for the preliminaries 
 %
 \pagestyle{headings}  % switches on printing of running heads
 % \addtocmark{Hamiltonian Mechanics} % additional mark in the TOC
-%
+% 
 
-\author{The Author goes here!}
+\author{Gruppe 9\\
+Lucas Garzarolli, 0955824,\\ 
+David Eigenstuhler, 1257180,\\
+Paul Wörtl, 0857021,\\
+Gerald Zauner, 0756323\\}
 \title{Medical Device Security}
-\titlerunning{IMD Security}  % abbreviated title (for running head)
+\titlerunning{Medical Device Security}  % abbreviated title (for running head)
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %\subtitle{Proposal}
-\institute{Institute?\\
-Department of ???\\
-Johannes Kepler University of Linz}
+\institute{Institut für Wirtschaftsinformatik\\
+Software Engineering\\ 
+Johannes Kepler Universitat Linz}
 \maketitle
+\vspace{2cm}
+\begin{center}
+Service Engineering SE (259.039 / WS 2014)\\
+\vspace{0.3cm}
+LVA Leiter: a. Univ.-Prof. Dr.Johannes Sametinger\\
+\vspace{0.3cm}
+18.12.2014 \\
+\end{center}
 
-%\vspace{5cm} 
-\begin{flushright}\noindent
-What date is it?
-\end{flushright}
-\vspace{1cm}
-
-%\begin{tabular}{p{8cm}p{8cm}}
-%\begin{tabular}{>{\centering\arraybackslash}p{4cm}p{4cm}p{4cm}}
-\begin{tabular}{p{4cm}p{4cm}p{4cm}}
-Course Supervisor & & Course Supervisor \tabularnewline 
-??? & & ??? \tabularnewline 
-\end{tabular} 
 
 %=====================================================================================
 
 %\newpage
 
+\begin{comment}
 \vspace{1cm}
 \begin{abstract}
 Here goes the abstract!\\
@@ -88,6 +90,7 @@ Here goes the abstract!\\
 \textbf{Keywords: }
 \textit{Keyword1, keyword2, keyword3}
 \end{abstract}
+\end{comment}
 
 %=====================================================================================
 %
@@ -95,15 +98,16 @@ Here goes the abstract!\\
 %
 \mainmatter              % start of the contributions
 %
-\title{Title?} 
+\title{Title?}
 %
 %=====================================================================================
 
+ 
 \include{body}
 
 \clearpage
 
-
+ 
 
 
 \printindex
